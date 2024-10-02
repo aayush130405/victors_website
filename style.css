@@ -7,5 +7,81 @@
 
 body {
     background-color: #111;
-    color: #fff
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px;
+    background-color: #222;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #00d0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.sign-in {
+    background-color: #00d0ff;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.welcome-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.victors {
+    color: #00d0ff;
+}
+
+.get-in-touch {
+    margin-top: 40px;
+    background-color: #00d0ff;
+    color: #111;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.android-logo img {
+    height: 200px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #222;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 25px;
 }
