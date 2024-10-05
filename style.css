@@ -304,3 +304,55 @@ input[type="password"] {
 .forgot-password:hover {
     text-decoration: underline;
 }
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#our_team {
+    margin: 30px;
+}
+
+.core-team-heads,
+.core-team-leads {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.core-team-heads {
+    align-items: center;
+}
+
+.team-head {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-bottom: 60px;
+}
+
+.team-head h2,
+.team-lead h2 {
+    color: #0091cc;
+    align-self: center;
+}
+
+.team-head img,
+.team-lead img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.team-lead {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #00d0ff;
+    margin: 10px 0 60px 0;
+}
+
+#cordintr {
+    width: 750px;
+}
