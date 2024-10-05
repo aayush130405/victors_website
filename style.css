@@ -49,7 +49,9 @@ nav ul li a.sign-in {
     border-radius: 20px;
     color: #111;
 }
-
+.welcome{
+    margin-bottom: 10px;
+}
 .welcome-section {
     display: flex;
     justify-content: space-between;
@@ -74,7 +76,6 @@ nav ul li a.sign-in {
     font-size: 20px;
     margin-left: 20px;
 }
-
 
 .android-logo img {
     height: 300px;
@@ -190,8 +191,52 @@ footer {
 .victors {
     color: #00d0ff;
 }
+.events-head{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #00d0ff;
+}
+.events{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.eve{
+    width: 500px;
+    height: 480px;
+    padding: 10px;
+    margin: 0 ;
+    border-radius: 15px;
+    border: 2px solid rgb(119, 119, 119);
+}
+.eve img{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid rgb(119, 119, 119);
+}
+.des{
+    margin-top: 10px;
+    align-items: center;
+}
+.des h1{
+    margin-left: 100px;
+    color: #00d0ff;
+}
+.des p{
+    margin-top: 10px;
+    line-height:18px;
+    text-align: center;
+    color: lightgray;
+    overflow: hidden; 
+}
 
-.events-section {
+/* .events-section {
     padding: 50px;
     background-color: #111;
     color: #fff;
@@ -224,7 +269,7 @@ footer {
 .event-description p {
     font-size: 1.2em;
     color: #ccc;
-}
+} */
 
 .join-us-section {
     padding: 50px;
@@ -329,56 +374,4 @@ input[type="password"] {
 
 .forgot-password:hover {
     text-decoration: underline;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#our_team {
-    margin: 30px;
-}
-
-.core-team-heads,
-.core-team-leads {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.core-team-heads {
-    align-items: center;
-}
-
-.team-head {
-    display: flex;
-    justify-content: space-between;
-    width: 700px;
-    margin-bottom: 60px;
-}
-
-.team-head h2,
-.team-lead h2 {
-    color: #0091cc;
-    align-self: center;
-}
-
-.team-head img,
-.team-lead img {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-}
-
-.team-lead {
-    display: flex;
-    justify-content: space-around;
-    border: 2px solid #00d0ff;
-    margin: 10px 0 60px 0;
-}
-
-#cordintr {
-    width: 750px;
 }
