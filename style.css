@@ -195,6 +195,7 @@ footer {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
+    margin-top: 15px;
     margin-bottom: 30px;
     color: #00d0ff;
 }
@@ -211,6 +212,10 @@ footer {
     margin: 0 ;
     border-radius: 15px;
     border: 2px solid rgb(119, 119, 119);
+    transition: transform 0.2s;
+}
+.eve:hover{
+    transform: translateY(-5px);
 }
 .eve img{
     width: 100%;
@@ -375,3 +380,173 @@ input[type="password"] {
 .forgot-password:hover {
     text-decoration: underline;
 }
+/* team */
+/* Hero Section */
+.hero {
+    margin-top: 15px;
+    height: 80px;
+    justify-content: center;
+    align-content: center;
+    /* background: #44c8f5; Hero section background color */
+    color: #00d0ff;
+    line-height: 35px;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.hero:hover{
+    color: white;
+    background-color: #00d0ff;
+} 
+.hero p{
+    font-size: 20px;
+}
+
+/* Team Details Section */
+.team-details-scroll {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.name{
+    font-size: 25px;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    color: lightgrey;
+}
+.information{
+    /* border: 1px solid white; */
+    width: 900px;
+    height: 200px;
+    align-content: center;
+}
+.information p{
+    line-height: 22px;
+    font-size: 20px;
+}
+.information h4{
+    color: #00d0ff;
+    font-size: 20px;
+}
+/* Team Row */
+.team-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+/* Team Box Styles */
+.team-box {
+    /* background-color: #b6babb (Rich Navy Blue); */
+    color: white;
+    padding: 1rem;
+    border: 1px solid rgb(155, 154, 154);
+    text-align: center;
+    width: 350px;
+    margin: 0.5rem; /* Space between boxes */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+.team-box h3{
+    font-size: 20px;
+}
+.team-box h4{
+    font-size: 15px;
+}
+.horizontal-boxes{
+    display: flex;
+    font-family: poppins;
+}
+/* Box Hover Effect */
+.team-box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Image styling inside team box */
+.team-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+/* Staggered Box Styling */
+.staggered {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left for the staggered layout */
+}
+
+.staggered-box {
+    flex: 1 1 100%; /* Full width for staggered boxes */
+}
+.side-way-boxes{
+    width: 200px;
+    box-shadow:1.5px 1.5px 1.5px #aaa;
+}
+.side-way-boxes img{
+    width: 150px;
+    height: 150px;
+}
+
+.staggered-box.right {
+    align-self: flex-end; /* Align to the right for staggered right boxes */
+}
+
+/* Partitioned Box Styling */
+.partitioned-box {
+    flex: 1 1 calc(50% - 1rem); /* Adjust for two boxes */
+    padding: 1rem;
+    background: rgb(41, 41, 41); /* Different background for visibility */
+    /* border: 1px solid rgb(155, 154, 154); */
+    border-radius: 15px; /* Rounded corners for partitioned boxes */
+    margin-bottom: 15px;
+}
+
+/* Inner Partition */
+.partition {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Inner box styling inside partitions */
+.inner-box {
+    box-shadow:1.5px 1.5px 1.5px #aaa;
+    background: rgb(19, 18, 18); 
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+    text-align: center;
+    flex: 1; /* Equal space for inner boxes */
+    margin: 0.5rem; /* Space between inner boxes */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Inner box image styling */
+.inner-box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+.inner-box h4{
+    font-size: 20px;
+}
+.inner-box p{
+    font-size: 20px;
+}
+/* Footer Styles */
+/* footer {
+    text-align: center;
+    padding: 1rem;
+    background: #007bff; 
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} */
